@@ -1,0 +1,55 @@
+.main-content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;  
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 2.5rem;
+    display: inline-block;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.link {
+    background-color: #ffffff;
+    padding: 0.6rem 1.8rem;
+    border-radius: 30px;
+    color: #2c5a6e;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: 1px solid #cbdbe2;
+    transition: background-color 0.2s;
+}
+
+.link:hover {
+    background-color: #e0e7ed;
+}
+
+.download-link {
+    background-color: #5f9ea0;  
+    color: white;
+    padding: 0.7rem 1.8rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.download-link:hover {
+    background-color: #4e8587;
+}
